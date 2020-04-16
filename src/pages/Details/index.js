@@ -12,7 +12,7 @@ import styles from './styles';
 
 export default function Details() {
 
-    const defaulImg = "https://w7.pngwing.com/pngs/906/501/png-transparent-pokemon-pokeball-pokemon-ultra-sun-and-ultra-moon-pokeball-angle-pokemon-symbol.png";
+    const defaulImg = "https://i.pinimg.com/originals/46/8f/78/468f7826c935091acfb33c303733a0e5.png";
     const [logged, setLogged] = useState(isAuthenticated());
     const [poke, setPoke] = useState({})
     const [habli, setHabili] = useState([])
@@ -98,6 +98,7 @@ export default function Details() {
                     <div className={classes.aumentSprite}>
                         <img className={classes.grandeImg} src={defimg} />
                     </div>
+
                     <div className={classes.habilidadesContainer}>
                         <Typography variant="h5">Habilidades deste pokemon:</Typography>
                         {

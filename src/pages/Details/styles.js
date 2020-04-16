@@ -14,17 +14,20 @@ const styles = makeStyles((theme) =>({
     },
 
     sprites: {
-        flex: 1,
+        width: '100%',
         display: 'flex',
+        flexWrap :"wrap",
+        flex: 1,
         flexDirection: 'row',
-        justifyContent: 'start',
+        justifyContent: "center",
         paddingTop: 80,
-        paddingLeft: 80
+        paddingLeft: 80,
     },
 
     divSprite:{
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        paddingBottom: 30
     },
 
     imgPoke: {
@@ -41,23 +44,26 @@ const styles = makeStyles((theme) =>({
     },
 
     aumentSprite:{
+        marginRight: 'auto',
         paddingLeft: 50,
     },
 
     grandeImg: {
-        width: 450,
-        height: 450
+        width: '70vh',
+        height: '70vh'
     },
 
     
     habilidadesContainer:{
         marginLeft: 50,
         display: 'flex',
+        flex: 1,
         flexDirection: 'column'
     },
 
     habilidades: {
-        marginLeft: 50
+        marginLeft: 50,
+        marginRight: 'auto'
     }
 }));
 
